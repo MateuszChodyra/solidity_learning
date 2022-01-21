@@ -52,11 +52,6 @@ contract EthSwap {
 		emit TokensSold(msg.sender, address(token), _amount, rate);
 	}
 
-	function howMuchTokens() public {
-		uint balance = token.balanceOf(address(this));
-		emit TokensBalance(balance);
-	}
-
 
 
 
